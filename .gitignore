@@ -1,0 +1,26 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Logs and databases #
+######################
+*.log
+*.txt
+*.sql
+*.sqlite
+
+# Passkit specific #
+############
+*.pkpass
+signature
+manifest.json
+*.pem
+*.p12
+*.png
