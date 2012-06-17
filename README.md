@@ -16,4 +16,4 @@ Quick, easy and automated way to generate .pkpass file
 
 ### Questions?
 
-@lakshmikaantan
+Follow [@lakshmikaantan](http://twitter.com/lakshmikaantan) on Twitter for the latest news.
