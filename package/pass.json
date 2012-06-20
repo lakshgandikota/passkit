@@ -5,20 +5,12 @@
     "serialNumber": "ABC4",
     "teamIdentifier": "3EQNPEVW28",
     "generic": {
-        "headerFields": [
-            {
-                "key": "headName",
-                "textAlignment" : "PKTextAlignmentLeft",
-                "label" : "",
-                "value": ""
-            }
-        ],
         "primaryFields": [
             {
                 "key": "primName",
                 "textAlignment" : "PKTextAlignmentLeft",
                 "label" : "primame",
-                "value": "Laks G"
+                "value": "Laks Gandikota"
             }
         ],
     	"secondaryFields" : [
