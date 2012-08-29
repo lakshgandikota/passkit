@@ -56,7 +56,7 @@ $log->logInfo('End.');
 
 $certdata = openssl_x509_read(file_get_contents($certificate));
 $privkey = openssl_pkey_get_private(file_get_contents($key), $key_password );
-openssl_pkcs7_sign($manifestfile, $signature . 'tmp', $certdata, $privkey,array(),PKCS7_BINARY|PKCS7_NOATTR|PKCS7_DETACHED);
+openssl_pkcs7_sign($manifestfile, $signature . 'tmp', $certdata, $privkey,array(),PKCS7_BINARY|PKCS7_NOATTR|PKCS7_DETACHED,$intermediatecert);
 
 $signatureRaw = $signature . 'tmp';
 $handle = fopen($signatureRaw, "r");

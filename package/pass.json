@@ -1,9 +1,10 @@
 {
     "passTypeIdentifier": "pass.com.lakstest",
     "formatVersion": 1,
-    "organizationName": "Walgreens Co",
+    "organizationName": "Laks Test",
     "serialNumber": "ABC4",
     "teamIdentifier": "3EQNPEVW28",
+    "description":"Here goes, description of the PASS",
     "generic": {
         "primaryFields": [
             {

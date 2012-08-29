@@ -11,10 +11,11 @@
  
 define("PRGM", "PASSKIT");
 $package_path = DOCUMENT_ROOT . 'package';
-$keys_path = DOCUMENT_ROOT . 'keys';
-$certificate = $keys_path . '/certificate.pem';
-$key = $keys_path . '/key.pem';
-$key_password = 'kanth386';
+$keys_path = DOCUMENT_ROOT . 'keys/lakstest';
+$certificate = $keys_path . '/lakstest.pem';
+$key = $keys_path . '/lakstestkey.pem';
+$key_password = '';
+$intermediatecert = DOCUMENT_ROOT . 'keys/AppleWDRCA.pem';
 $signature = $package_path . '/signature';
 $passname = DOCUMENT_ROOT. 'pass/pass.pkpass';
 $manifestfile = $package_path . '/manifest.json';
